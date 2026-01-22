@@ -34,6 +34,8 @@
 
     --radius: 0.5rem;
   }
+  
+  /* For the Dark Theme */
 
   .dark {
     --background: 222.2 84% 4.9%;
@@ -82,7 +84,7 @@ body {
     hue-rotate(32deg) brightness(98%) contrast(92%);
 }
 
-/* ========================================== TAILWIND STYLES */
+/* ------------------ TAILWIND STYLES ------------------*/
 @layer utilities {
   .wrapper {
     @apply max-w-7xl lg:mx-auto p-5 md:px-10 xl:px-0 w-full;
